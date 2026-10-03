@@ -1,0 +1,24 @@
+{
+  "name": "@local/dsh-deepseek-balance",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Shows the DeepSeek account balance beside the token-usage stats under the composer.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": { "platform": "web", "immediately": true }
+  }
+}

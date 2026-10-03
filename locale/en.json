@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek account balance",
+    "description": "Shows the DeepSeek account balance beside the composer's token-usage stats and breaks it down on click."
+  }
+}

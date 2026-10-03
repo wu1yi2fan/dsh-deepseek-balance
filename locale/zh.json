@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek 账户余额",
+    "description": "在输入框下方的 Token 用量统计旁显示 DeepSeek 账户余额，点击可查看明细。"
+  }
+}
